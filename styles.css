@@ -4,12 +4,12 @@ body{
   margin: auto 0px;
 }
 
-nav{
-  text-transform: uppercase;
-}
-
 .navbar{
   margin: 0px;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  color: #e5820c;
 }
 
 .portada{
@@ -28,6 +28,11 @@ nav{
 
 h2{
   text-transform: uppercase;
+}
+
+.page-header{
+  margin-top: 30px;
+  border-bottom: 1px solid #e5820c;
 }
 
 .center-block {

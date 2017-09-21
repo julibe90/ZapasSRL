@@ -7,7 +7,7 @@
     <title>Zapas SRL New</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <script src="https://use.fontawesome.com/01894c1725.js"></script>
   </head>
@@ -30,10 +30,10 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#nosotros">Nosotros <span class="sr-only">(current)</span></a></li>
-              <li><a href="#unidadesdenegocio">Unidades de negocio</a></li>
-              <li><a href="#productos">Productos</a></li>
-              <li><a href="#contacto">Contacto</a></li>
+              <li><a class="text-uppercase "href="#nosotros">Nosotros</a></li>
+              <li><a class="text-uppercase" href="#unidadesdenegocio">Unidades de negocio</a></li>
+              <li><a class="text-uppercase" href="#productos">Productos</a></li>
+              <li><a class="text-uppercase" href="#contacto">Contacto</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -45,7 +45,7 @@
 
     <section class="container-fluid">
       <article id="nosotros">
-        <h2> Nosotros </h2>
+        <h2 class="page-header"> Nosotros </h2>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
       </article>
 
@@ -85,16 +85,17 @@
 
     <section class="container-fluid">
       <article id="unidadesdenegocio">
-        <h2> Unidades de negocio </h2>
+        <h2 class="page-header"> Unidades de negocio </h2>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
       </article>
+    </section>
 
     <section class="container-fluid separador">
     </section>
 
     <section class="container-fluid">
       <article id="productos">
-        <h2> Productos </h2>
+        <h2 class="page-header"> Productos </h2>
         <span>
           <h3> Calzado Vulcanizado </h3>
           <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
@@ -124,7 +125,20 @@
 
     <section class="container-fluid">
       <article id="contacto">
-        <h2> Contacto </h2>
+        <h2 class="page-header"> Contacto </h2>
+
+        <address>
+          <strong>Zapas SRL.</strong><br>
+          Av. Bartolomé Mitre 5339,Caseros (B1678AQA)<br>
+          Buenos Aires, Argentina<br>
+          <abbr title="Phone">T:</abbr> (5411)4716 5397/ 4734 7405
+        </address>
+
+        <address>
+          <strong>Ventas</strong><br>
+          <a href="mailto:#">ventas@zapassrl.com.ar</a>
+        </address>
+        <br>
         <form class="form-horizontal">
           <div class="form-group">
             <label for="inputName1" class="col-sm-2 control-label">Nombre</label>
@@ -136,6 +150,12 @@
             <label for="inputEmail1" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
               <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputSubject1" class="col-sm-2 control-label">Asunto</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputSubject1" placeholder="Asunto">
             </div>
           </div>
           <div class="form-group">
