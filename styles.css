@@ -40,7 +40,6 @@ h2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
 }
 
 .center-block img {
@@ -49,17 +48,17 @@ h2{
 }
 
 footer{
-  background-color: white;
+  background-color: #e7e7e7;
   font-size: 12px;
   padding: 10px 50px;
   bottom: 0px;
   display: flex;
   justify-content: space-between;
-  border-top: black 1px solid;
+  border-top: transparent 1px solid;
 }
 
 footer p{
-  padding: 0px 10px;
+  padding: 10px 10px;
 }
 
 footer a{
@@ -74,4 +73,8 @@ footer a:hover{
 
 footer a:visited{
   color: black;
+}
+
+.icono{
+  padding: 5px;
 }
