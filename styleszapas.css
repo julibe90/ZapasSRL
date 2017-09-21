@@ -1,0 +1,61 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: auto 0px;
+}
+
+nav{
+  text-transform: uppercase;
+}
+
+.navbar{
+  margin: 0px;
+}
+
+.portada{
+  background: url("zapatillas.jpg") no-repeat;
+  height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.separador{
+  background: url("zapatillas.jpg") no-repeat;
+  height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.center-block img {
+  height: 200px;
+  width: 200px;
+}
+
+footer{
+  background-color: white;
+  font-size: 10px;
+  padding: 10px 50px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  border-top: black 1px solid;
+}
+
+footer p{
+  padding: 0px 10px;
+}
+
+footer a{
+  color: black;
+}
