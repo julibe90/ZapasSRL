@@ -12,6 +12,11 @@ body{
   color: #e5820c;
 }
 
+.navbar-brand{
+  margin: 0px;
+  padding: 0px;
+}
+
 .portada{
   background: url("zapatillas.jpg") no-repeat;
   width: 100%;
