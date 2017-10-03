@@ -25,6 +25,13 @@ body{
   background-size: cover;
 }
 
+@media (min-width: @screen-sm-min){
+  .container-fluid{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
 .separador{
   background: url("zapatillas.jpg") no-repeat;
   height: 500px;
