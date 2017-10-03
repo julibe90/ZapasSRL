@@ -26,8 +26,8 @@ body{
 }
 
 .container-fluid{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 @media (max-width: @screen-sm-max){
