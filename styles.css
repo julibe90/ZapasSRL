@@ -25,10 +25,15 @@ body{
   background-size: cover;
 }
 
-@media (min-width: @screen-sm-min){
+.container-fluid{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media (max-width: @screen-sm-max){
   .container-fluid{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -57,6 +62,11 @@ h2{
 .center-block img {
   height: 200px;
   width: 200px;
+}
+
+.btn{
+  margin-bottom: 20px;
+  align-content: flex-end;
 }
 
 footer{
