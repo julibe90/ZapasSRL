@@ -30,7 +30,7 @@ body{
 @media (max-width: 576px) {
   .portada{
     background: url("zapatillas.jpg") no-repeat;
-    width: 100%;
+    width: 600px;
   }
 }
 
