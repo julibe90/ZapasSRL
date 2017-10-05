@@ -63,6 +63,10 @@ h2{
   align-content: flex-end;
 }
 
+.carousel-inner .item{
+  height: 500px;
+}
+
 footer{
   background-color: #e7e7e7;
   font-size: 12px;
