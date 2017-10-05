@@ -25,15 +25,9 @@ body{
   background-size: cover;
 }
 
-.container-fluid{
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-@media (max-width: @screen-sm-max){
+@media (min-width: 576px) {
   .container-fluid{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0px 75px;
   }
 }
 
