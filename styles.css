@@ -71,6 +71,7 @@ footer{
   display: flex;
   justify-content: space-between;
   border-top: transparent 1px solid;
+  margin: 0px auto;
 }
 
 footer p{
