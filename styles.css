@@ -64,10 +64,22 @@ h2{
   border-bottom: 1px solid #e5820c;
 }
 
-.thumbnail{
-  background-color: #ffc38d;
-  border: 1px solid #e5820c;
-  color: white;
+@media (min-width: 576px){
+  .thumbnail{
+    background-color: #ffc38d;
+    border: 1px solid #e5820c;
+    color: white;
+    height: 500px;
+  }
+}
+
+@media (max-width: 576px){
+  .thumbnail{
+    background-color: #ffc38d;
+    border: 1px solid #e5820c;
+    color: white;
+    height: 550px;
+  }
 }
 
 .thumbnail img{
