@@ -36,7 +36,6 @@ body{
 
 .portadaudn{
     background: url("zapasudn.jpg") no-repeat;
-    width: 100%;
     height: 500px;
     background-position: 0px -70px;
     background-attachment: fixed;
@@ -45,7 +44,6 @@ body{
 
 .portadap{
     background: url("zapasp.jpg") no-repeat;
-    width: 100%;
     height: 500px;
     background-position: 0px -70px;
     background-attachment: fixed;
