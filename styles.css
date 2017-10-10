@@ -64,6 +64,17 @@ h2{
   border-bottom: 1px solid #e5820c;
 }
 
+.thumbnail{
+  background-color: #e5820c;
+  color: white;
+  height: 470px;
+}
+
+.thumbnail img{
+  height: 250px;
+  width: 550px;
+}
+
 .center-block {
   display: block;
   margin-left: auto;
@@ -83,7 +94,6 @@ h2{
 .carousel-inner .item{
   height: 500px;
 }
-
 
 footer{
   background-color: #e7e7e7;
