@@ -65,7 +65,8 @@ h2{
 }
 
 .thumbnail{
-  background-color: #e5820c;
+  background-color: #ffc38d;
+  border: 1px solid #e5820c;
   color: white;
 }
 
