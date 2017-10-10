@@ -45,7 +45,7 @@ body{
 .portadap{
     background: url("zapasp.jpg") no-repeat;
     height: 500px;
-    background-position: 0px -70px;
+    background-position: 0px -20px;
     background-attachment: fixed;
     background-size: cover;
 }
