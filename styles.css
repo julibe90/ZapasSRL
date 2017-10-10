@@ -58,13 +58,6 @@ body{
   }
 }
 
-.separador{
-  background: url("zapasentrada.jpg") no-repeat;
-  height: 500px;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
 h2{
   text-transform: uppercase;
 }
