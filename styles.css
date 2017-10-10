@@ -67,12 +67,11 @@ h2{
 .thumbnail{
   background-color: #e5820c;
   color: white;
-  height: 500px;
 }
 
 .thumbnail img{
   height: 250px;
-  width: 550px;
+  width: 450px;
 }
 
 .center-block {
