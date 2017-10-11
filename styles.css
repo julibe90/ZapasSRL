@@ -77,9 +77,19 @@ h2{
 }
 
 .panel-default>.panel-heading {
-    color: #333;
-    background-color: #ffc38d;
-    border-color: #e5820c;
+  color: #333;
+  background-color: #ffc38d;
+  border-color: #e5820c;
+}
+
+a.thumbnail:hover {
+    border-color: #1e120d;
+}
+
+a:focus,
+a:hover {
+  color: #1e120d;
+  text-decoration: none;
 }
 
 .center-block {
@@ -100,21 +110,6 @@ h2{
 
 .carousel-inner .item{
   height: 500px;
-}
-
-.thumbnailv2{
-  display: block;
-  padding: 4px;
-  margin-bottom: 20px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.thumbnailv2 img{
-  height: 171px;
-  width: 180px;
 }
 
 footer{
