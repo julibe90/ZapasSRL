@@ -64,27 +64,14 @@ h2{
   border-bottom: 1px solid #e5820c;
 }
 
-@media (min-width: 576px){
-  .thumbnail{
-    background-color: #ffc38d;
-    border: 1px solid #e5820c;
-    color: white;
-    height: 500px;
-  }
+.panel-default {
+  border-color: #e5820c;
 }
 
-@media (max-width: 576px){
-  .thumbnail{
+.panel-default>.panel-heading {
+    color: #333;
     background-color: #ffc38d;
-    border: 1px solid #e5820c;
-    color: white;
-    height: 550px;
-  }
-}
-
-.thumbnail img{
-  height: 250px;
-  width: 450px;
+    border-color: #e5820c;
 }
 
 .center-block {
@@ -105,6 +92,21 @@ h2{
 
 .carousel-inner .item{
   height: 500px;
+}
+
+.thumbnailv2{
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.thumbnailv2 img{
+  height: 171px;
+  width: 180px;
 }
 
 footer{
