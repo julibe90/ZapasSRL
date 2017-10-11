@@ -59,24 +59,43 @@ body{
   }
 }
 
-@media (max-width: 576px) {
-  .portada{
-    background-image: url("zapasentradav2.jpg");
-    width: 100%;
+.portada img{
+  width: 100%;
+}
+
+.portadan img{
+  width: 100%;
+}
+
+.portadaudn img{
+  width: 100%;
+}
+
+.portadap img{
+  width: 100%;
+}
+.portadac img{
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .portada img{
+    display: none!important;
   }
-  .portadan{
-      width: 100%;
+  .portadan img{
+    display: none!important;
   }
-  .portadaudn{
-      width: 100%;
+  .portadaudn img{
+    display: none!important;
   }
-  .portadap{
-      width: 100%;
+  .portadap img{
+    display: none!important;
   }
-  .portadac{
-      width: 100%;
+  .portadac img{
+    display: none!important;
   }
 }
+
 
 @media (min-width: 576px) {
   .container-fluid{
