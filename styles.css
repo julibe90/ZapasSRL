@@ -26,9 +26,9 @@ body{
 }
 
 .portadan{
-    background: url("zapasentrada.jpg") no-repeat;
+    background: url("zapasn.jpg") no-repeat;
     height: 500px;
-    background-position: 0px -70px;
+    background-position: 0px -230px;
     background-attachment: fixed;
     background-size: cover;
 }
