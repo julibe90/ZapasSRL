@@ -49,6 +49,14 @@ body{
     background-size: cover;
 }
 
+.portadac{
+    background: url("MapaZapasSRL.jpg") no-repeat;
+    height: 500px;
+    background-position: -250px -75px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 @media (min-width: 576px) {
   .container-fluid{
     padding: 0px 75px;
