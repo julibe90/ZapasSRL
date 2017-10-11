@@ -17,6 +17,10 @@ body{
   padding: 0px;
 }
 
+.navbar-brand img{
+  height: 50px;
+}
+
 .portada{
     background: url("zapasentradav2.jpg") no-repeat;
     height: 500px;
