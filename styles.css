@@ -59,22 +59,6 @@ body{
   }
 }
 
-.portada img{
-  width: 100%;
-}
-.portadan img{
-  width: 100%;
-}
-.portadaudn img{
-  width: 100%;
-}
-.portadap img{
-  width: 100%;
-}
-.portadac img{
-  width: 100%;
-}
-
 @media (min-width: 576px) {
   .portada img{
     display: none!important;
