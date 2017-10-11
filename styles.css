@@ -61,19 +61,20 @@ body{
 
 @media (max-width: 576px) {
   .portada{
-      background: url("zapasentradav2.jpg") no-repeat;
+    background-image: url("zapasentradav2.jpg");
+    width: 100%;
   }
   .portadan{
-      background: url("zapasnos.jpg") no-repeat;
+      width: 100%;
   }
   .portadaudn{
-      background: url("zapasudn.jpg") no-repeat;
+      width: 100%;
   }
   .portadap{
-      background: url("zapasp.jpg") no-repeat;
+      width: 100%;
   }
   .portadac{
-      background: url("MapaZapasSRL.jpg") no-repeat;
+      width: 100%;
   }
 }
 
