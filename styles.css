@@ -21,44 +21,60 @@ body{
   height: 50px;
 }
 
-.portada{
-    background: url("zapasentradav2.jpg") no-repeat;
-    height: 500px;
-    background-position: 0px -50px;
-    background-attachment: fixed;
-    background-size: cover;
+@media (min-width: 576px) {
+  .portada{
+      background: url("zapasentradav2.jpg") no-repeat;
+      height: 500px;
+      background-position: 0px -50px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  .portadan{
+      background: url("zapasnos.jpg") no-repeat;
+      height: 500px;
+      background-position: 0px -220px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  .portadaudn{
+      background: url("zapasudn.jpg") no-repeat;
+      height: 500px;
+      background-position: 0px -70px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  .portadap{
+      background: url("zapasp.jpg") no-repeat;
+      height: 500px;
+      background-position: 0px -20px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  .portadac{
+      background: url("MapaZapasSRL.jpg") no-repeat;
+      height: 500px;
+      background-position: -250px -75px;
+      background-attachment: fixed;
+      background-size: cover;
+  }
 }
 
-.portadan{
-    background: url("zapasnos.jpg") no-repeat;
-    height: 500px;
-    background-position: 0px -220px;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.portadaudn{
-    background: url("zapasudn.jpg") no-repeat;
-    height: 500px;
-    background-position: 0px -70px;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.portadap{
-    background: url("zapasp.jpg") no-repeat;
-    height: 500px;
-    background-position: 0px -20px;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.portadac{
-    background: url("MapaZapasSRL.jpg") no-repeat;
-    height: 500px;
-    background-position: -250px -75px;
-    background-attachment: fixed;
-    background-size: cover;
+@media (max-width: 576px) {
+  .portada{
+      background: url("zapasentradav2.jpg") no-repeat;
+  }
+  .portadan{
+      background: url("zapasnos.jpg") no-repeat;
+  }
+  .portadaudn{
+      background: url("zapasudn.jpg") no-repeat;
+  }
+  .portadap{
+      background: url("zapasp.jpg") no-repeat;
+  }
+  .portadac{
+      background: url("MapaZapasSRL.jpg") no-repeat;
+  }
 }
 
 @media (min-width: 576px) {
