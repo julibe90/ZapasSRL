@@ -60,17 +60,14 @@ body{
 }
 
 .portada img{
-  height: 300px;
+  width: 100%;
 }
-
 .portadan img{
   width: 100%;
 }
-
 .portadaudn img{
   width: 100%;
 }
-
 .portadap img{
   width: 100%;
 }
