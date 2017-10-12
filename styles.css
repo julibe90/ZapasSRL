@@ -23,9 +23,9 @@ body{
 
 @media (min-width: 576px) {
   .portada{
-      background: url("zapasentradav2.jpg") no-repeat;
+      background: url("portadazapas1.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -50px;
+      background-position: 0px -300px;
       background-attachment: fixed;
       background-size: cover;
   }
