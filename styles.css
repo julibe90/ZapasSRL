@@ -118,8 +118,16 @@ a:hover {
   align-content: flex-end;
 }
 
-.carousel-inner .item{
-  height: 500px;
+.logo img{
+  height: 80px;
+  padding: 0px 5px 10px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item .carrousel-caption p{
+  color: #e5820c;
 }
 
 .media-object{
