@@ -23,30 +23,30 @@ body{
 
 @media (min-width: 576px) {
   .portada{
-      background: url("portadazapas1.jpg") no-repeat;
+      background: url("portada-general.jpg") no-repeat;
       height: 500px;
       background-position: 0px -300px;
       background-attachment: fixed;
       background-size: cover;
   }
   .portadan{
-      background: url("zapasnos.jpg") no-repeat;
+      background: url("portada-nosotros.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -220px;
+      background-position: 0px -200px;
       background-attachment: fixed;
       background-size: cover;
   }
   .portadaudn{
-      background: url("zapasudn.jpg") no-repeat;
+      background: url("portada-udn.jpg") no-repeat;
       height: 500px;
       background-position: 0px -70px;
       background-attachment: fixed;
       background-size: cover;
   }
   .portadap{
-      background: url("zapasp.jpg") no-repeat;
+      background: url("portada-productos.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -20px;
+      background-position: 0px -30px;
       background-attachment: fixed;
       background-size: cover;
   }
@@ -92,14 +92,22 @@ h2{
   border-bottom: 1px solid #e5820c;
 }
 
-a.thumbnail:hover {
-    border-color: #1e120d;
+h3{
+  color: #e5820c;
 }
 
-a:focus,
-a:hover {
-  color: #e5820c;
-  text-decoration: none;
+.thumbnail{
+  border: none;
+  margin-bottom: 0px;
+}
+
+.thumbnail img{
+  border-radius: 3%;
+}
+
+a.thumbnail:hover {
+  border: 1px solid grey;
+  border-radius: 3%;
 }
 
 .center-block {
@@ -142,9 +150,8 @@ a:hover {
   background-color: #e5820c;
 }
 
-
 .media-object{
-  height: 100px;
+  height: 80px;
   margin-bottom: 15px;
 }
 
