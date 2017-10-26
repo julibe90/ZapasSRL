@@ -126,9 +126,22 @@ a:hover {
   margin-right: auto;
 }
 
-.item .carrousel-caption p{
+.carousel-caption{
   color: #e5820c;
 }
+
+.glyphicon{
+  color: #e5820c;
+}
+
+.carousel-indicators li{
+  border: 1px solid #e5820c;
+}
+
+.carousel-indicators .active{
+  background-color: #e5820c;
+}
+
 
 .media-object{
   height: 100px;
