@@ -12,10 +12,10 @@ body{
   -o-background-size: cover;
 }
 
-.bg-faded {
+.box{
+  margin-left: 5%;
+  margin-right: 5%;
   background-color: white;
-  margin-top: 20px;
-  padding: 1px 20px 10px 20px;
 }
 
 .navbar{
@@ -42,6 +42,9 @@ body{
       background-position: 0px -150px;
       background-attachment: fixed;
       background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
   }
   .portadan{
       background: url("portada-nosotros.jpg") no-repeat;
@@ -49,6 +52,9 @@ body{
       background-position: 0px -150px;
       background-attachment: fixed;
       background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
   }
   .portadaudn{
       background: url("portada-udn.jpg") no-repeat;
@@ -56,6 +62,9 @@ body{
       background-position: 0px -150px;
       background-attachment: fixed;
       background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
   }
   .portadap{
       background: url("portada-productos.jpg") no-repeat;
@@ -63,6 +72,9 @@ body{
       background-position: 0px -30px;
       background-attachment: fixed;
       background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
   }
   .portadac{
       background: url("portada-contacto.jpg") no-repeat;
@@ -70,6 +82,9 @@ body{
       background-position: -50px -75px;
       background-attachment: fixed;
       background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
   }
 }
 

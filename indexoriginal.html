@@ -12,7 +12,7 @@
     <link href="styles.css" rel="stylesheet">
   </head>
 
-  <body class="principal">
+  <body>
     <header>
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -41,8 +41,11 @@
       </nav>
     </header>
 
-    <br>
-    <section class="container-fluid box">
+    <section class="portada">
+      <img src="portada-general.jpg" alt="Foto de Zapas SRL" width="100%">
+    </section>
+
+    <section class="container-fluid">
       <article id="nosotros">
         <h2 class="page-header"> Nosotros </h2>
         <p class="text-justify"> Somos una empresa conducida por profesionales, que mantiene intacto el perfil familiar. Nacemos con la visión emprendedora de Rodolfo Bessi, que hace más de 40 años inicia su actividad en el rubro textil y calzado deportivo. </p>
@@ -50,35 +53,40 @@
         <p class="text-justify"> Los primeros años   son   de   acumulación   de experiencia   en el   desarrollo de producto vulcanizado junto a grandes marcas argentinas. Desde entonces, fuimos creciendo en forma sostenida hasta convertirnos en una empresa referente en la fabricación de calzado vulcanizado, con capacidad de producción de 30.000 pares mensuales, en nuestra nueva planta modelo cita en Tres de Febrero, Provincia de Buenos aires. Nos enorgullecemos de ser un equipo con pasión por la excelencia, que re invierte sus ganancias en la Argentina. </p>
         <p class="text-justify"> Atendemos de manera personalizada a proveedores y clientes. La calidad involucra todos los sectores de nuestra empresa y representa un compromiso primordial en nuestro desempeño diario. Agradecemos a nuestros leales clientes por acompañarnos día a día y a nuestro equipo de trabajadores, por honrar la confianza de nuestros clientes.</p>
       </article>
+
       <a class="btn btn-default btn-warning pull-right" href="nosotros.html" role="button">Ver más</a>
     </section>
 
-    <br>
-    <section class="container-fluid box">
+    <section class="container-fluid portada">
+    </section>
+
+    <section class="container-fluid">
       <article id="unidadesdenegocio">
         <h2 class="page-header"> Divisiones </h2>
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-3">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <img class="img-fluid rounded" src="logo-provulc.jpg" alt="Logo División Pro Vulc">
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <img class="img-fluid rounded" src="logo-eva.jpg" alt="Logo División Eva">
           </div>
-          <div class="col-md-2">
+          <div class="col-md-3">
           </div>
         </div>
       </article>
       <a class="btn btn-default btn-warning pull-right" href="unidadesdenegocio.html" role="button">Ver más</a>
     </section>
 
-    <br>
-    <section class="container-fluid box">
+    <section class="container-fluid portada">
+    </section>
+
+    <section class="container-fluid">
       <article id="productos">
-        <h2 class="page-header">Productos</h2>
+        <h2 class="page-header"> Productos </h2>
         <span>
-          <p class="text-justify">Somos responsables de la producción de marcas de renombre tanto en el mercado nacional como en el internacional.</p>
+          <p class="text-justify"> Somos responsables de la producción de marcas de renombre tanto en el mercado nacional como en el internacional.</p>
           <br>
           <span>
             <div class="row logo">
@@ -125,12 +133,14 @@
       <a class="btn btn-default btn-warning pull-right" href="productos.html" role="button">Ver más</a>
     </section>
 
-    <br>
-    <section class="container-fluid box">
+    <section class="container-fluid portada">
+    </section>
+
+    <section class="container-fluid">
       <article id="contacto">
         <h2 class="page-header"> Contacto </h2>
 
-        <div class="col-sm-4 col-md-6">
+        <div class="col-sm-6 col-md-5">
           <address>
             <strong>Zapas SRL.</strong><br>
             Av. Bartolomé Mitre 5339,Caseros (B1678AQA)<br>
@@ -149,29 +159,29 @@
           </address>
         </div>
 
-        <div class="col-sm-8 col-md-6">
+        <div class="col-sm-6 col-md-6">
           <form class="form-horizontal">
             <div class="form-group">
-              <label for="inputName1" class="col-sm-3 col-md-2 control-label">Nombre</label>
-              <div class="col-sm-8 col-md-10">
+              <label for="inputName1" class="col-sm-2 control-label">Nombre</label>
+              <div class="col-sm-6 col-md-8">
                 <input type="text" class="form-control" id="inputName1" placeholder="Nombre">
               </div>
             </div>
             <div class="form-group">
-              <label for="inputEmail1" class="col-sm-3 col-md-2 control-label">Email</label>
-              <div class="col-sm-8 col-md-10">
+              <label for="inputEmail1" class="col-sm-2 control-label">Email</label>
+              <div class="col-sm-6 col-md-8">
                 <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
               </div>
             </div>
             <div class="form-group">
-              <label for="inputSubject1" class="col-sm-3 col-md-2 control-label">Asunto</label>
-              <div class="col-sm-8 col-md-10">
+              <label for="inputSubject1" class="col-sm-2 control-label">Asunto</label>
+              <div class="col-sm-6 col-md-8">
                 <input type="text" class="form-control" id="inputSubject1" placeholder="Asunto">
               </div>
             </div>
             <div class="form-group">
-              <label for="inputComment1" class="col-sm-3 col-md-2 control-label">Mensaje</label>
-              <div class="col-sm-8 col-md-10">
+              <label for="inputComment1" class="col-sm-2 control-label">Mensaje</label>
+              <div class="col-sm-6 col-md-8">
                 <textarea class="form-control" rows="3" id="inputComment1" placeholder="Su mensaje"></textarea>
                 <br>
                 <button type="submit" class="btn btn-default">Enviar</button>
@@ -183,7 +193,6 @@
       </article>
     </section>
 
-    <br>
     <footer class="container-fluid">
       <p class="icono"><a href="https://www.linkedin.com/" target="_blank"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a><p>
       <p><a href="https://bgbagency.com.ar/" target="_blank"> Diseñado por BGB Agency</a></p>
