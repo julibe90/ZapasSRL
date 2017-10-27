@@ -134,6 +134,22 @@ a.thumbnail:hover {
   margin-right: auto;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.rounded {
+    border-radius: 3%;
+}
+
+.lead{
+  font-weight: 300;
+}
+
+
 .carousel-inner .item img{
   margin-left: 5%;
 }
