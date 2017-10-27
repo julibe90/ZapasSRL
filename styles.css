@@ -25,7 +25,7 @@ body{
   .portada{
       background: url("portada-general.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -300px;
+      background-position: 0px -150px;
       background-attachment: fixed;
       background-size: cover;
   }
