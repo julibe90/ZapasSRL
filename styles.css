@@ -4,12 +4,14 @@ body{
   margin: auto 0px;
 }
 
-.principal{
-  background: url('portada-general.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+@media (min-width: 768px) {
+  .principal{
+    background: url('portada-general.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 }
 
 .box{
@@ -89,6 +91,9 @@ body{
 }
 
 @media (min-width: 768px) {
+  .mobile img{
+    display: none!important;
+  }
   .portada img{
     display: none!important;
   }
@@ -102,6 +107,12 @@ body{
     display: none!important;
   }
   .portadac img{
+    display: none!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop {
     display: none!important;
   }
 }
