@@ -2,6 +2,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   margin: auto 0px;
+  background: url('fondo-v5.jpg') no-repeat center center fixed;
 }
 
 .principal{
@@ -254,4 +255,11 @@ footer a:visited{
 
 .icono{
   padding: 5px;
+}
+
+.logof img{
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
