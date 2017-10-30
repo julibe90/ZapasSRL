@@ -2,7 +2,6 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   margin: auto 0px;
-  background: url('fondo-v5.jpg') no-repeat center center fixed;
 }
 
 .principal{
@@ -38,7 +37,7 @@ body{
 }
 
 @media (min-width: 768px) {
-  .portada{
+  /*.portada{
       background: url("portada-index.jpg") no-repeat;
       height: 500px;
       background-position: 0px -260px;
@@ -47,7 +46,7 @@ body{
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-  }
+  }*/
   .portadan{
       background: url("portada-general.jpg") no-repeat;
       height: 500px;
@@ -106,9 +105,6 @@ body{
 
 
 @media (min-width: 768px) {
-  .portada img{
-    display: none!important;
-  }
   .portadan img{
     display: none!important;
   }
@@ -236,7 +232,8 @@ footer{
 }
 
 footer p{
-  padding: 10px 10px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px;
 }
 
 footer a{
@@ -255,6 +252,10 @@ footer a:visited{
 
 .icono{
   padding: 5px;
+}
+
+.fa{
+  padding-top: 3px;
 }
 
 .logof img{
