@@ -61,12 +61,13 @@ body{
   .portadaudn{
       background: url("portada-udn.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -150px;
+      background-position: 0px -200px;
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
+      background-size: 110%;
   }
   .portadap{
       background: url("portada-productos.jpg") no-repeat;
@@ -79,9 +80,9 @@ body{
       -o-background-size: cover;
   }
   .portadac{
-      background: url("portada-contacto.jpg") no-repeat;
+      background: url("portada-contacto2.jpg") no-repeat;
       height: 500px;
-      background-position: -50px -75px;
+      background-position: -500px 0px;
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
@@ -89,6 +90,20 @@ body{
       -o-background-size: cover;
   }
 }
+
+@media (min-width: 1300px) {
+  .portadac{
+      background: url("portada-contacto2.jpg") no-repeat;
+      height: 500px;
+      background-position: 0px 0px;
+      background-attachment: fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    }
+}
+
 
 @media (min-width: 768px) {
   .mobile img{
