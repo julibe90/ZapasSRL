@@ -22,6 +22,7 @@ body{
 
 .navbar{
   margin: 0px;
+  background-color: #fff;
 }
 
 .navbar-default .navbar-nav li a:hover{
@@ -235,13 +236,13 @@ a.thumbnail:hover {
 }
 
 footer{
-  background-color: #e7e7e7;
+  background-color: #fff;
   font-size: 12px;
   padding: 10px 50px 0px 50px;
   bottom: 0px;
   display: flex;
   justify-content: space-between;
-  border-top: transparent 1px solid;
+  border-top: 1px solid #e7e7e7;
   margin: 0px auto;
 }
 
