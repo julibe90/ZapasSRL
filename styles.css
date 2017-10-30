@@ -39,9 +39,9 @@ body{
 
 @media (min-width: 768px) {
   .portada{
-      background: url("portada-general.jpg") no-repeat;
+      background: url("portada-index.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -150px;
+      background-position: 0px -260px;
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
