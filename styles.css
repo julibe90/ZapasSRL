@@ -122,7 +122,7 @@ body{
   .portada{
     background: url("portada-index3.jpg") no-repeat;
     height: 500px;
-    background-position: 0px -300px;
+    background-position: 0px -500px;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -132,7 +132,7 @@ body{
   .portadan{
       background: url("portada-general.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -300px;
+      background-position: 0px -500px;
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
@@ -142,7 +142,7 @@ body{
   .portadaudn{
       background: url("portada-udn.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -300px;
+      background-position: 0px -500px;
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
@@ -153,7 +153,7 @@ body{
   .portadap{
       background: url("portada-productos.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -300px;
+      background-position: 0px -500px;
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
