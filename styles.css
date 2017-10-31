@@ -37,20 +37,22 @@ body{
 }
 
 @media (min-width: 768px) {
-  /*.portada{
-      background: url("portada-index.jpg") no-repeat;
-      height: 500px;
-      background-position: 0px -260px;
-      background-attachment: fixed;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-  }*/
+  .portada{
+    background: url("portada-index3.jpg") no-repeat;
+    height: 500px;
+    background-position: bottom center;
+    /*background-position: 0px -200px;*/
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
   .portadan{
       background: url("portada-general.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -190px;
+      background-position: bottom center;
+      /*background-position: 0px -190px;*/
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
@@ -60,7 +62,8 @@ body{
   .portadaudn{
       background: url("portada-udn.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -200px;
+      background-position: center center;
+      /*background-position: 0px -200px;*/
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
@@ -71,7 +74,8 @@ body{
   .portadap{
       background: url("portada-productos.jpg") no-repeat;
       height: 500px;
-      background-position: 0px -30px;
+      background-position: top center;
+      /*background-position: 0px -30px;*/
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
@@ -79,9 +83,10 @@ body{
       -o-background-size: cover;
   }
   .portadac{
-      background: url("portada-contacto2.jpg") no-repeat;
+      background: url("portada-contacto.jpg") no-repeat;
       height: 500px;
-      background-position: -500px 0px;
+      background-position: center center;
+      /*background-position: -500px 0px;*/
       background-attachment: fixed;
       background-size: cover;
       -webkit-background-size: cover;
@@ -89,22 +94,11 @@ body{
       -o-background-size: cover;
   }
 }
-
-@media (min-width: 1300px) {
-  .portadac{
-      background: url("portada-contacto2.jpg") no-repeat;
-      height: 500px;
-      background-position: 0px 0px;
-      background-attachment: fixed;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-    }
-}
-
 
 @media (min-width: 768px) {
+  .portada img{
+    display: none!important;
+  }
   .portadan img{
     display: none!important;
   }
