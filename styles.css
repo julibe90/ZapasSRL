@@ -121,7 +121,7 @@ body{
 @media (min-width: 1500px) {
   .portada{
     background: url("portada-index3.jpg") no-repeat;
-    height: 2000px;
+    height: 1500px;
     background-position: 0px -500px;
     background-attachment: fixed;
     background-size: cover;
