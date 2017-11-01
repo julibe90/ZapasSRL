@@ -62,137 +62,6 @@ body{
 }
 
 @media (min-width: 768px) {
-  .portada{
-    background: url("portada-index3.jpg") no-repeat;
-    height: 500px;
-    background-position: bottom center;
-    /*background-position: 0px -200px;*/
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
-  .portadan{
-      background: url("portada-general.jpg") no-repeat;
-      height: 500px;
-      background-position: bottom center;
-      /*background-position: 0px -190px;*/
-      background-attachment: fixed;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-  }
-  .portadaudn{
-      background: url("portada-udn.jpg") no-repeat;
-      height: 500px;
-      background-position: center center;
-      /*background-position: 0px -200px;*/
-      background-attachment: fixed;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: 110%;
-  }
-  .portadap{
-      background: url("portada-productos.jpg") no-repeat;
-      height: 500px;
-      background-position: top center;
-      /*background-position: 0px -30px;*/
-      background-attachment: fixed;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-  }
-  .portadac{
-      background: url("portada-contacto.jpg") no-repeat;
-      height: 500px;
-      background-position: center center;
-      /*background-position: -500px 0px;*/
-      background-attachment: fixed;
-      background-size: cover;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-  }
-}
-
-@media (min-width: 768px) {
-  .portada img{
-    display: none!important;
-  }
-  .portadan img{
-    display: none!important;
-  }
-  .portadaudn img{
-    display: none!important;
-  }
-  .portadap img{
-    display: none!important;
-  }
-  .portadac img{
-    display: none!important;
-  }
-}
-
-@media (min-width: 1500px) {
-  .portada{
-    background: url("portada-index3.jpg") no-repeat;
-    height: 700px;
-    background-position: 0px -450px;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
-  .portadan{
-    background: url("portada-general.jpg") no-repeat;
-    height: 700px;
-    background-position: 0px -500px;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
-  .portadaudn{
-    background: url("portada-udn.jpg") no-repeat;
-    height: 700px;
-    background-position: 0px -500px;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 110%;
-  }
-  .portadap{
-    background: url("portada-productos.jpg") no-repeat;
-    height: 700px;
-    background-position: 0px -500px;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
-  .portadac{
-    background: url("portada-contacto.jpg") no-repeat;
-    height: 700px;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-  }
-}
-
-@media (min-width: 768px) {
   .container-fluid{
     padding: 0px 75px;
   }
@@ -220,6 +89,12 @@ h2{
 
 h3{
   color: #e5820c;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.glyphicon{
+  padding: 10px 10px;
 }
 
 .thumbnail{
@@ -261,14 +136,14 @@ a.thumbnail:hover {
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-    border-style: none;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
 }
 
 .rounded {
-    border-radius: 3%;
+  border-radius: 3%;
 }
 
 .lead{
