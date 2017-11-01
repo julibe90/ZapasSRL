@@ -12,6 +12,14 @@ body{
   -o-background-size: cover;
 }
 
+.linenavbar {
+  height: 15px;
+  border: 1px double #e5820c;
+  background-color: #e5820c;
+  max-width: 4000px;
+  margin: 0px;
+}
+
 .box{
   margin-left: 5%;
   margin-right: 5%;
@@ -19,9 +27,17 @@ body{
 }
 
 .navbar{
-  margin: 0px;
+  margin: 0px auto;
   background-color: #fff;
-  height: 60px;
+  height: 80px;
+  border-bottom-color: #e5820c;
+  border-bottom-left-radius: unset;
+  border-bottom-right-radius: unset;
+  border-bottom-width: 2px;
+}
+
+.navbar-nav .navbar-default{
+  border-bottom: 2px solid #e5820c;
 }
 
 .navbar-default .navbar-nav li a:hover{
@@ -34,11 +50,15 @@ body{
 }
 
 .navbar-brand img{
-  height: 50px;
+  height: 60px;
 }
 
 .navbar a{
-  margin-top: 5px;
+  margin-top: 10px;
+}
+
+.navbar li a{
+  margin-top: 15px;
 }
 
 @media (min-width: 768px) {
