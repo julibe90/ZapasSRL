@@ -30,10 +30,10 @@ body{
   margin: 0px auto;
   background-color: #fff;
   height: 80px;
-  border-bottom-color: #e5820c;
+  /*border-bottom-color: #e5820c;
   border-bottom-left-radius: unset;
   border-bottom-right-radius: unset;
-  border-bottom-width: 2px;
+  border-bottom-width: 2px;*/
 }
 
 .navbar-nav .navbar-default{
@@ -313,7 +313,8 @@ a.thumbnail:hover {
 }
 
 footer{
-  background-color: #fff;
+  background-color: #e5820c;
+  color: white;
   font-size: 12px;
   padding: 10px 50px 0px 50px;
   bottom: 0px;
@@ -333,17 +334,17 @@ footer p img{
 }
 
 footer a{
-  color: black;
+  color: white;
 }
 
 footer a:hover{
-  color: black;
+  color: white;
   cursor: pointer;
   text-decoration: none;
 }
 
 footer a:visited{
-  color: black;
+  color: white;
 }
 
 .logof img{
