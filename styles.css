@@ -121,8 +121,8 @@ body{
 @media (min-width: 1500px) {
   .portada{
     background: url("portada-index3.jpg") no-repeat;
-    height: 1500px;
-    background-position: 0px 0px;
+    height: 700px;
+    background-position: 0px -450px;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -131,7 +131,7 @@ body{
   }
   .portadan{
     background: url("portada-general.jpg") no-repeat;
-    height: 1000px;
+    height: 700px;
     background-position: 0px -500px;
     background-attachment: fixed;
     background-size: cover;
@@ -141,7 +141,7 @@ body{
   }
   .portadaudn{
     background: url("portada-udn.jpg") no-repeat;
-    height: 1000px;
+    height: 700px;
     background-position: 0px -500px;
     background-attachment: fixed;
     background-size: cover;
@@ -152,8 +152,8 @@ body{
   }
   .portadap{
     background: url("portada-productos.jpg") no-repeat;
-    height: 1000px;
-    background-position: 0px -700px;
+    height: 700px;
+    background-position: 0px -500px;
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -162,7 +162,7 @@ body{
   }
   .portadac{
     background: url("portada-contacto.jpg") no-repeat;
-    height: 1000px;
+    height: 700px;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -178,9 +178,14 @@ body{
   }
 }
 
-@media (min-width: 2400px) {
+@media (min-width: 1500px) {
   .container-fluid{
-    padding: 0px 100px;
+    padding: 0px 150px;
+  }
+  .box{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.9)
   }
 }
 
