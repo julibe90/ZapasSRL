@@ -50,19 +50,19 @@ body{
 
 .navbar-brand img{
   height: 60px;
+  padding-left: 10px;
 }
 
-@media (max-width: 768px) {
-  .navbar-brand img{
-    height: 50px;
-    padding-left: 10px;
-  }
-  .navbar a{
-    margin-top: 10px;
-  }
-  .navbar li a{
-    margin-top: 15px;
-  }
+.navbar a{
+  margin-top: 10px;
+}
+
+.navbar li a{
+  margin-top: 15px;
+}
+
+.navbar-default .navbar-collapse .navbar-default .navbar-form{
+  background-color: white;
 }
 
 @media (min-width: 768px) {
