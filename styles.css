@@ -2,7 +2,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   margin: auto 0px;
-  background: url('fondo-v5.jpg') no-repeat center center fixed;
+  background: url('fondotrama.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -126,16 +126,11 @@ div .thumbnail:hover{
   background-color: #e5820c;
 }
 
-.center-block {
+/*.center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.center-block img {
-  height: 200px;
-  width: 200px;
-}
+}*/
 
 .btn{
   margin-bottom: 20px;
@@ -155,10 +150,6 @@ div .thumbnail:hover{
   height: auto;
   vertical-align: middle;
   border-style: none;
-}
-
-.rounded {
-  border-radius: 3%;
 }
 
 .lead{
