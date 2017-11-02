@@ -25,12 +25,6 @@ body{
   margin: 0px;
 }
 
-.box{
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: rgba(255, 255, 255, 0.9)
-}
-
 .navbar{
   margin: 0px auto;
   background-color: #fff;
@@ -69,11 +63,17 @@ body{
 
 @media (min-width: 768px) {
   .container-fluid{
-    padding: 0% 15%;
+    margin: 0% 10%;
+  }
+  .container-fluid-zapas{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
-@media (min-width: 1500px) {
+/*@media (min-width: 1500px) {
   .container-fluid{
     padding: 0px 150px;
   }
@@ -82,6 +82,11 @@ body{
     margin-right: 10%;
     background-color: rgba(255, 255, 255, 0.9)
   }
+}*/
+
+.box{
+  padding: 0% 5%;
+  background-color: rgba(255, 255, 255, 0.9)
 }
 
 .btn-warning{
