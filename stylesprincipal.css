@@ -1,0 +1,341 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: auto 0px;
+}
+
+.principal{
+  background: url('fondo-v5.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.box{
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(255, 255, 255, 0.9)
+}
+
+.navbar{
+  margin: 0px;
+  background-color: #fff;
+  height: 60px;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  color: #e5820c;
+}
+
+.navbar-brand{
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-brand img{
+  height: 50px;
+}
+
+.navbar a{
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .portada{
+    background: url("portada-index3.jpg") no-repeat;
+    height: 500px;
+    background-position: bottom center;
+    /*background-position: 0px -200px;*/
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .portadan{
+      background: url("portada-general.jpg") no-repeat;
+      height: 500px;
+      background-position: bottom center;
+      /*background-position: 0px -190px;*/
+      background-attachment: fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  }
+  .portadaudn{
+      background: url("portada-udn.jpg") no-repeat;
+      height: 500px;
+      background-position: center center;
+      /*background-position: 0px -200px;*/
+      background-attachment: fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: 110%;
+  }
+  .portadap{
+      background: url("portada-productos.jpg") no-repeat;
+      height: 500px;
+      background-position: top center;
+      /*background-position: 0px -30px;*/
+      background-attachment: fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  }
+  .portadac{
+      background: url("portada-contacto.jpg") no-repeat;
+      height: 500px;
+      background-position: center center;
+      /*background-position: -500px 0px;*/
+      background-attachment: fixed;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .portada img{
+    display: none!important;
+  }
+  .portadan img{
+    display: none!important;
+  }
+  .portadaudn img{
+    display: none!important;
+  }
+  .portadap img{
+    display: none!important;
+  }
+  .portadac img{
+    display: none!important;
+  }
+}
+
+@media (min-width: 1500px) {
+  .portada{
+    background: url("portada-index3.jpg") no-repeat;
+    height: 700px;
+    background-position: 0px -450px;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .portadan{
+    background: url("portada-general.jpg") no-repeat;
+    height: 700px;
+    background-position: 0px -500px;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .portadaudn{
+    background: url("portada-udn.jpg") no-repeat;
+    height: 700px;
+    background-position: 0px -500px;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 110%;
+  }
+  .portadap{
+    background: url("portada-productos.jpg") no-repeat;
+    height: 700px;
+    background-position: 0px -500px;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  .portadac{
+    background: url("portada-contacto.jpg") no-repeat;
+    height: 700px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .container-fluid{
+    padding: 0px 75px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container-fluid{
+    padding: 0px 150px;
+  }
+  .box{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255, 255, 255, 0.9)
+  }
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+.page-header{
+  margin-top: 30px;
+  border-bottom: 1px solid #e5820c;
+}
+
+h3{
+  color: #e5820c;
+}
+
+.thumbnail{
+  border: none;
+  margin-bottom: 0px;
+}
+
+.thumbnail img{
+  border-radius: 3%;
+}
+
+a.thumbnail:hover {
+  border: 1px solid grey;
+  border-radius: 3%;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-block img {
+  height: 200px;
+  width: 200px;
+}
+
+.btn{
+  margin-bottom: 20px;
+  align-content: flex-end;
+}
+
+.logo img{
+  height: 80px;
+  padding: 0px 5px 10px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.rounded {
+    border-radius: 3%;
+}
+
+.lead{
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .item img{
+    margin-left: 5%;
+  }
+}
+
+@media (min-width: 2400px) {
+  .carousel-inner .item img{
+    margin-left: 25%;
+  }
+}
+
+.carousel-caption{
+  color: white;
+  text-shadow: 0px 1px 2px black;
+  z-index: 50;
+}
+
+.carousel-indicators li{
+  border: 1px solid black;
+}
+
+.carousel-indicators .active{
+  background-color: white;
+}
+
+.media-object{
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+  .media-object{
+    height: 50px;
+  }
+}
+
+footer{
+  background-color: #fff;
+  font-size: 12px;
+  padding: 10px 50px 0px 50px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e7e7e7;
+  margin: 0px auto;
+}
+
+footer p{
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+}
+
+footer p img{
+  margin: -1px;
+}
+
+footer a{
+  color: black;
+}
+
+footer a:hover{
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+footer a:visited{
+  color: black;
+}
+
+.logof img{
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  padding: 0px
+}
+
+p .logof{
+  margin: 0px;
+  padding: 0px;
+}

@@ -27,7 +27,7 @@ body{
 
 .navbar{
   margin: 0px auto;
-  background-color: #fff;
+  background-color: white;
   height: 80px;
   /*border-bottom-color: #e5820c;
   border-bottom-left-radius: unset;
@@ -37,6 +37,7 @@ body{
 
 .navbar-nav .navbar-default{
   border-bottom: 2px solid #e5820c;
+  background-color: white;
 }
 
 .navbar-default .navbar-nav li a:hover{
