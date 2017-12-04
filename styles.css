@@ -128,6 +128,12 @@ li .list-group-item {
   margin: 0px;
 }
 
+.list-group-item {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
 p.glyphicon.glyphicon-minus{
   padding: 0px;
 }
