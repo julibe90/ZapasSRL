@@ -122,8 +122,10 @@ h3{
   font-size: 20px;
 }
 
-.list-group-item{
+li .list-group-item {
   border: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 p.glyphicon.glyphicon-minus{
