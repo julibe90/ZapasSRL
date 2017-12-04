@@ -129,7 +129,7 @@ li .list-group-item {
 }
 
 .list-group-item {
-  border: none;
+  border-color: transparent;
   padding: 0px;
   margin: 0px;
 }
