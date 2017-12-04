@@ -123,13 +123,13 @@ h3{
 }
 
 li .list-group-item {
-  border: none;
+  border: 1px solid white;
   padding: 0px;
   margin: 0px;
 }
 
 .list-group-item {
-  border-color: transparent;
+  border: 1px solid white;
   padding: 0px;
   margin: 0px;
 }
